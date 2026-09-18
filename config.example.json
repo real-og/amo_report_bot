@@ -1,0 +1,31 @@
+{
+  "date_from": "2026-08-01",
+  "date_to": null,
+  "output_dir": "reports",
+  "pipelines": [
+    "РЕКЛАМА НА ТРАНСПОРТЕ",
+    "БРЕНДИРОВАНИЕ АВТО",
+    "РЕКЛАМА В ЧЕХЛАХ"
+  ],
+  "excluded_status_names": ["Неразобранное"],
+  "included_status_names": [
+    "менеджер назначен",
+    "кп отправлено",
+    "дизайн доставлен(согласование)",
+    "условия согласованы(создание договора)",
+    "договор отправлен",
+    "предоплата получена"
+  ],
+  "custom_fields": {
+    "city": {"id": null, "name": "Город"},
+    "service": {"id": null, "name": "Услуга"},
+    "source": {"id": null, "name": "Источник"},
+    "comment": {"id": null, "name": "Примечания"},
+    "loss_reason": {"id": null, "name": "Причина нереализации"}
+  },
+  "colors": {
+    "default_stages": ["DDEBF7", "FFF2CC", "E4DFEC", "D9EAD3", "FCE5CD", "D0E0E3"],
+    "won": "C6EFCE",
+    "lost": "F4CCCC"
+  }
+}

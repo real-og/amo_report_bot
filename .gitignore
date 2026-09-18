@@ -1,0 +1,5 @@
+.venv
+debug_responses
+reports
+.env
+config.json
